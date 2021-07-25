@@ -1,13 +1,30 @@
 <?php
-
+// DATOS GENERALES ADMIN
 $title = 'AdminLTE 3';
 $logo = 'dist/img/AdminLTELogo.png';
 $mainLink = 'index3.html';
 
+
+//DATOS DEL USUARIO ADMIN
 $name = 'Carlos';
 $photo = 'dist/img/user2-160x160.jpg';
 
+//MENU CERRAR O PERFIL DE ADMINISTRADOR
+$menuSession = [
+    [
+        'text' => 'Perfil',
+        'url'  => 'admin/settings',
+        'icon' => 'fas fa-address-card',
+    ],
+    [
+        'text' => 'Cerrar sesión',
+        'url'  => 'admin/settings',
+        'icon' => 'fas fa-times-circle',
+    ],
+];
 
+
+//CREACION DE ENLACES PARA EL MENU SIDEBAR
 $linksSidebar = [
     ['header' => 'ADMINISTRADOR'],
     [

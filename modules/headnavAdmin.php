@@ -42,10 +42,25 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="#" role="button">
-                <i class="fas fa-th-large"></i>
-            </a>
+            <ul class="nav nav-tabs shadow-sm border border-secondary">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                        <img class="img-circle elevation-2 mr-2" src="<?php echo $photo; ?>" width="25" alt="foto">
+                        <span class="hidden-xs"><?php echo $name; ?></span>
+                    </a>
+                    <ul class="dropdown-menu text-center">
+                        <?php foreach ($menuSession as $key => $value) { ?>
+                            <li>
+                                <a class="dropdown-item" href="<?php echo $value['url']; ?>">
+                                    <i class="<?php echo $value['icon']; ?>  nav-icon"></i>
+                                    <?php echo $value['text']; ?></a>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                </li>
+            </ul>
         </li>
+
     </ul>
 
     <!-- /.navbar -->
