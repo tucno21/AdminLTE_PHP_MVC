@@ -1,12 +1,12 @@
-<?php require('adminlte.php') ?>
+<?php include 'adminlte.php'; ?>
 <!-- head admin -->
-<?php include('modules/headAdmin.php') ?>
+<?php include 'modules/headAdmin.php'; ?>
 <!-- Navbar -->
-<?php include('modules/headnavAdmin.php') ?>
+<?php include 'modules/headnavAdmin.php'; ?>
 <!-- /.navbar -->
 
 <!-- Main Sidebar Container -->
-<?php include('modules/sidebarAdmin.php') ?>
+<?php include 'modules/sidebarAdmin.php'; ?>
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -33,4 +33,4 @@
 <!-- /.content-wrapper -->
 
 <!-- footer -->
-<?php include('modules/footerAdmin.php') ?>
+<?php include 'modules/footerAdmin.php'; ?>

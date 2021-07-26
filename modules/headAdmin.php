@@ -1,4 +1,4 @@
-<?php require('adminlte.php') ?>
+<?php require 'adminlte.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">

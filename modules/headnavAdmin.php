@@ -1,4 +1,4 @@
-<?php require('adminlte.php') ?>
+<?php require 'adminlte.php'; ?>
 <!-- Navbar -->
 <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
