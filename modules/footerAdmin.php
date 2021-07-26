@@ -1,3 +1,4 @@
+<?php require('adminlte.php') ?>
 <footer class="main-footer">
     <div class="float-right d-none d-sm-block">
         <b>Version</b> 3.1.0
@@ -14,13 +15,13 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<script src="<?php echo $linkURL; ?>plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo $linkURL; ?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/adminlte.min.js"></script>
+<script src="<?php echo $linkURL; ?>dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
+<!-- <script src="<?php echo $linkURL; ?>dist/js/demo.js"></script> -->
 </body>
 
 </html>

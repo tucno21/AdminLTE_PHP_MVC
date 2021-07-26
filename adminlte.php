@@ -1,4 +1,7 @@
 <?php
+//link de los JS CSS
+$linkURL = '';
+
 // DATOS GENERALES ADMIN
 $title = 'AdminLTE 3';
 $logo = 'dist/img/AdminLTELogo.png';
