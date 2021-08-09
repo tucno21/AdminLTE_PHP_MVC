@@ -1,36 +1,19 @@
-<?php include 'adminlte.php'; ?>
-<!-- head admin -->
-<?php include 'modules/AdminHead.php'; ?>
-<!-- Navbar -->
-<?php include 'modules/AdminMenu.php'; ?>
-<!-- /.navbar -->
+<?php
 
-<!-- Main Sidebar Container -->
-<?php include 'modules/AdminMenuLateral.php'; ?>
+// variables generales
+include 'adminlte.php';
 
-<!-- Content Wrapper. Contains page content -->
-<div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-        <div class="container-fluid">
-            <div class="row mb-2">
-                <div class="col-sm-6">
-                    <h1>Pagina blanca</h1>
-                </div>
-            </div>
-        </div><!-- /.container-fluid -->
-    </section>
+//cabeza de la pplantilla
+include 'modules/AdminHead.php';
 
-    <!-- Main content -->
-    <section class="content">
+//menu supererior
+include 'modules/AdminMenu.php';
 
-        <!-- en esta seccion colocar lo que vera en el index -->
+//menu lateral
+include 'modules/AdminMenuLateral.php';
 
+//cuerpo en blanco
+include 'modules/paginaWhite.php';
 
-    </section>
-    <!-- /.content -->
-</div>
-<!-- /.content-wrapper -->
-
-<!-- footer -->
-<?php include 'modules/AdminFooter.php'; ?>
+//footer
+include 'modules/AdminFooter.php';
