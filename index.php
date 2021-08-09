@@ -6,14 +6,23 @@ include 'adminlte.php';
 //cabeza de la pplantilla
 include 'modules/AdminHead.php';
 
-//menu supererior
-include 'modules/AdminMenu.php';
 
-//menu lateral
-include 'modules/AdminMenuLateral.php';
+if (isset($_SESSION["admin"])) {
+    //menu supererior
+    include 'modules/AdminMenu.php';
 
-//cuerpo en blanco
-include 'modules/paginaWhite.php';
+    //menu lateral
+    include 'modules/AdminMenuLateral.php';
 
-//footer
-include 'modules/AdminFooter.php';
+    //cuerpo en blanco
+    include 'modules/paginaWhite.php';
+
+    //footer
+    include 'modules/AdminFooter.php';
+} else {
+    //login
+    include 'modules/login.php';
+}
+
+//login
+include 'modules/AdminScript.php';
