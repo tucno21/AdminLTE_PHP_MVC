@@ -16,4 +16,4 @@
     <link rel="stylesheet" href="<?php echo $linkURL; ?>dist/css/adminlte.min.css">
 </head>
 
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition sidebar-mini sidebar-collapse">
