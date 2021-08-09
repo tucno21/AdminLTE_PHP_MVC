@@ -5,6 +5,7 @@ $linkURL = '';
 // DATOS GENERALES ADMIN
 $title = 'AdminLTE <b>3</b>';
 $titleBar = 'AdminLTE 3';
+$titlelogin = '<b>Admin</b>LTE';
 $logo = 'dist/img/AdminLTELogo.png';
 $mainLink = 'index3.html';
 

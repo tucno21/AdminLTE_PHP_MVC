@@ -1,7 +1,7 @@
 <div class="login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="../../index2.html"><b>Admin</b>LTE</a>
+            <a href="#"><?php echo $titlelogin; ?></a>
         </div>
         <!-- /.login-logo -->
         <div class="card">
