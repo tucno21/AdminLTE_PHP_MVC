@@ -1,6 +1,6 @@
 <?php
 
-// variables generales
+// variables generales y creador de muna lateral
 include 'adminlte.php';
 
 //cabeza de la pplantilla
@@ -8,6 +8,8 @@ include 'modules/AdminHead.php';
 
 
 if (isset($_SESSION["admin"])) {
+
+
     //menu supererior
     include 'modules/AdminMenu.php';
 
@@ -19,10 +21,13 @@ if (isset($_SESSION["admin"])) {
 
     //footer
     include 'modules/AdminFooter.php';
+
+    //
 } else {
+
     //login
     include 'modules/login.php';
 }
 
-//login
+//script
 include 'modules/AdminScript.php';
