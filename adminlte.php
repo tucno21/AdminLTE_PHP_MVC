@@ -3,7 +3,8 @@
 $linkURL = '';
 
 // DATOS GENERALES ADMIN
-$title = 'AdminLTE 3';
+$title = 'AdminLTE <b>3</b>';
+$titleBar = 'AdminLTE 3';
 $logo = 'dist/img/AdminLTELogo.png';
 $mainLink = 'index3.html';
 
